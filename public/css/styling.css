@@ -1,0 +1,200 @@
+*{
+    font-family: helvetica, sans-serif;
+}
+
+#navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    /*background: linear-gradient(45deg, rgb(194, 145, 21), goldenrod);*/
+    background: rgb(219, 157, 87);
+}
+
+.nav{
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(254, 250, 224);
+    justify-items: center;
+}
+
+.active{
+    background-color: rgb(96, 108, 56);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+li a{
+    display: block;
+        color: inherit;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active){
+    color: rgb(188, 108, 37);
+}
+
+#description{
+    text-align: left;
+}
+
+.lists{
+    list-style-type: none;
+}
+
+#faq{
+    list-style-type: none;
+}
+
+.tablestyleheadings{
+    background-color: #00a6aa;
+}
+
+.quartile, .ec, .grade{
+    text-align: center;
+}
+
+.tablestyledata{
+    background-color: rgb(245, 245, 228);
+}
+
+body{
+    /*background: linear-gradient(45deg, rgb(54, 2, 2), rgb(75, 2, 2)); ;*/
+    margin: 0;
+    height: auto;
+    color: rgb(254, 250, 224);
+    background: rgb(40, 54, 24);
+
+}
+
+footer{
+    /*background: linear-gradient(45deg, rgb(194, 145, 21), goldenrod);*/
+    background: rgb(219, 157, 87);
+    height: auto;
+    position: absolute;
+    top: auto;
+}
+
+.resourceLink{
+    color: rgb(254, 250, 224);
+}
+
+#tablestyle{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    border: 1px hidden;
+    text-align: left;
+}
+
+.linktext{
+    margin: 20px;
+    border-radius: 0%;
+    font-weight: bold;
+    display: block;
+    text-decoration: none!important;
+    color: inherit;
+    font-size: 25px;
+}
+
+a:visited{
+    text-decoration: none!important;
+    color: inherit;
+}
+
+#assignment{
+    margin-top: 50px;
+    display: flex;
+    color: rgb(254, 250, 224);
+}
+
+.baseAssign{
+    display: flex;
+    flex-direction: row;
+}
+
+.baseSec{
+    text-align: center;
+    width: 400px;
+}
+
+#motivationSec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#motivDesc{
+    width: 400px;
+
+}
+
+#tedTalk{
+    width: 400px;
+
+}
+
+.heading{
+    text-align: center;
+}
+
+hr{
+    width: 50%;
+}
+
+#home{
+    text-align: center;
+    color: rgb(254, 250, 224);
+}
+
+#performanceSec{
+    display: flex;
+    justify-content: center;
+}
+
+#results, #anchors{
+    width: 40%;
+}
+
+#conclusion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#careerVal{
+    display: flex;
+    justify-content: center;
+}
+
+#guide{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 179px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+#profile{
+    color: rgb(254, 250, 224);
+}
+
+.katten{
+    border-style: solid;
+    border-width: 2.5px;
+    border-color: rgb(188, 108, 37);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-left: 250px;
+}
