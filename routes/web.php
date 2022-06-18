@@ -26,18 +26,18 @@ Route::get('/', function() {
 });
 
 Route::get('/profession', function() {
-   return view('profession');
-});
+    return view('profession');
+})->middleware(['auth']);
 
 //Route::get('/', [WelcomeController::class]);
-Route::get('/profile', [ProfileController::class, 'show']);
-Route::get('/motivation', [MotivationController::class, 'show']);
-Route::resource('/grades', GradeController::class);
-Route::resource('/faq', FaqController::class);
-Route::get('/posts', [PostsController::class]);
-Route::resource('/article', ArticleController::class);
+Route::get('/profile', [ProfileController::class, 'show'])->middleware(['auth']);
+Route::get('/motivation', [MotivationController::class, 'show'])->middleware(['auth']);
+Route::resource('/grades', GradeController::class)->middleware(['auth']);
+Route::resource('/faq', FaqController::class)->middleware(['auth']);
+Route::get('/posts', [PostsController::class])->middleware(['auth']);
+Route::resource('/article', ArticleController::class)->middleware(['auth']);
 
-Route::get('/dashboard', function() {
+Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
