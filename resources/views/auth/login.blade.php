@@ -12,7 +12,7 @@
         <!-- Validation Errors -->
         <x-auth-validation-errors class="mb-4" :errors="$errors" />
 
-        <form method="GET" action="/welcome">
+        <form method="GET" action="{{ route('/') }}">
             @csrf
 
             <!-- Email Address -->
