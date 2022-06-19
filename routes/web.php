@@ -30,7 +30,7 @@ Route::get('/profession', function() {
 })->middleware(['auth']);
 
 //Route::get('/', [WelcomeController::class]);
-Route::get('/profile', [ProfileController::class, 'show'])->middleware(['auth']);
+Route::get('//profile', [ProfileController::class, 'show'])->middleware(['auth']);
 Route::get('/motivation', [MotivationController::class, 'show'])->middleware(['auth']);
 Route::resource('/grades', GradeController::class)->middleware(['auth']);
 Route::resource('/faq', FaqController::class)->middleware(['auth']);
