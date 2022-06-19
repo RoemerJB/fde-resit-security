@@ -10,7 +10,7 @@
 <body>
     <ul id="navbar">
         <li class="nav"><a href="/" class="{{ Request::path() === '/' ? 'active' : '' }}">Home</a></li>
-        <li class="nav"><a href="//profile" class="{{ Request::path() === 'profile' ? 'active' : '' }}">My profile</a></li>
+        <li class="nav"><a href="https://profile" class="{{ Request::path() === 'profile' ? 'active' : '' }}">My profile</a></li>
         <li class="nav"><a href="/motivation" class="{{ Request::path() === 'motivation' ? 'active' : '' }}">My motivation</a></li>
         <li class="nav"><a href="/profession" class="{{ Request::path() === 'profession' ? 'active' : '' }}">Profession</a></li>
         <li class="nav"><a href="/grades" class="{{ Request::path() === 'grades' ? 'active' : '' }}">Grades</a></li>
