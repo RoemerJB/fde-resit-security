@@ -12,7 +12,7 @@
         <!-- Validation Errors -->
         <x-auth-validation-errors class="mb-4" :errors="$errors" />
 
-        <form method="GET" action="/welcome">
+        <form method="POST" action="{{ route('login') }}">
             @csrf
 
             <!-- Email Address -->
@@ -52,7 +52,7 @@
 
 
                 <x-button class="ml-3">
-                    {{ __('Log in') }}
+                    <a href="/welcome">{{ __('Log in') }}</a>
                 </x-button>
             </div>
         </form>
