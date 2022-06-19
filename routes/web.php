@@ -5,7 +5,7 @@ use App\Http\Controllers\GradeController;
 use Illuminate\Support\Facades\Route;
 //use App\Http\Controllers\WelcomeController;
 use App\Http\Controllers\ProfileController;
-use App\Http\Controllers\DashboardController;
+//use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\FaqController;
 use App\Http\Controllers\MotivationController;
 use App\Http\Controllers\PostsController;
@@ -30,7 +30,7 @@ Route::get('/profession', function() {
 })->middleware(['auth']);
 
 //Route::get('/', [WelcomeController::class]);
-Route::get('//profile', [ProfileController::class, 'show'])->middleware(['auth']);
+Route::get('/profile', [ProfileController::class, 'show'])->middleware(['auth']);
 Route::get('/motivation', [MotivationController::class, 'show'])->middleware(['auth']);
 Route::resource('/grades', GradeController::class)->middleware(['auth']);
 Route::resource('/faq', FaqController::class)->middleware(['auth']);
