@@ -52,7 +52,7 @@
 
 
                 <x-button class="ml-3">
-                    <a href="/welcome">{{ __('Log in') }}</a>
+                    <a href="/welcome">'Log in'</a>
                 </x-button>
             </div>
         </form>
