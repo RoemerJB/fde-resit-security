@@ -6,9 +6,4 @@
     <form method="get" action="/faq/{{ $faq->id }}/edit">
         <button type="submit">Edit</button>
     </form>
-    <form method="POST" action="/faq/{{ $faq->id }}">
-        @csrf
-        @method('DELETE')
-        <button type="submit">Delete</button>
-    </form>
 @endsection
