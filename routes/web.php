@@ -22,8 +22,8 @@ use App\Http\Controllers\PostsController;
 */
 
 Route::get('/', function() {
-    return view('welcome')->middleware(['auth']);
-});
+    return view('welcome');
+})->middleware(['auth']);
 
 Route::get('/profession', function() {
     return view('profession');
