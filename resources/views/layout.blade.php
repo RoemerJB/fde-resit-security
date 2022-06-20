@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF=8">
     <meta name="viewport" content="width=device-width">
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <link rel="stylesheet" href="/css/styling.css">
 </head>
 
