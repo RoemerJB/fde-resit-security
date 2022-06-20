@@ -52,7 +52,7 @@
 
 
                 <x-button class="ml-3">
-                    <a href="/">'Log in'</a>
+                    {{ __('Dashboard') }}
                 </x-button>
             </div>
         </form>
