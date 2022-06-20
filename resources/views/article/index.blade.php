@@ -1,6 +1,9 @@
 @extends('layout')
 
 @section('content')
+    <form method="get" action="/article/create">
+        <button type="submit">Post an article</button>
+    </form>
 
     @foreach($article as $article)
     <h2>
