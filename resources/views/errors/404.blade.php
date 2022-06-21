@@ -4,6 +4,6 @@
 
 
     <div class="error" id="404">
-        <h1><b style="color: red">404: </b>Sorry, we cannot find this page</h1>
+        <img src="/img/bettergoose.png" alt="background" width="524" height="327">
     </div>
     @endsection

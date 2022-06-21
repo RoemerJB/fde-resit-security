@@ -4,6 +4,6 @@
 
 
     <div class="error" id="500">
-        <h1><b style="color: red">500: </b>It seems something went wrong</h1>
+        <img src="/img/evenbettergoose.png" alt="background" width="800" height="327">
     </div>
 @endsection
