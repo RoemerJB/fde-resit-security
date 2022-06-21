@@ -7,6 +7,6 @@ namespace App\Http\Controllers;
 class MotivationController
 {
     public function show() {
-        return view('motivation');
+        /return view('motivation');
     }
 }
