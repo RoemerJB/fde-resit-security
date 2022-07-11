@@ -4,7 +4,7 @@
 <h1 class="heading">View on the job</h1>
 <hr>
 <section id="viewOJ">
-    <article id="cybSec">
+    <article style="padding: 50px;" id="cybSec">
         <h2 class="heading">The police force</h2>
         <p>
             Cybersecurity is getting more and more relevant. Now that cyber crimes

@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('content')
-    
+
     <h2>Enter grades</h2>
 
     <form method="POST" action="/grades/{{ $grades->id }}">
