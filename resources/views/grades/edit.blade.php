@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <h2>Enter grade</h2>
+    <h2>Enter grades for fun or something blah bla bla bla</h2>
 
     <form method="POST" action="/grades/{{ $grades->id }}">
         @csrf
